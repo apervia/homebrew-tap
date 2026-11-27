@@ -1,24 +1,24 @@
 # Written by the release workflow of the Apervia CLI. Do not edit.
 cask "apervia" do
-  version "2026.11.23.1"
+  version "2026.11.27.1"
 
   on_macos do
     on_arm do
-      sha256 "8631ffa6586b0521415b097d249a8c8a6c9d2bfa90af0503e598e95b54c46c4b"
+      sha256 "92bdf7010d59639ee9057c667fd86ef3624ab2b6d78fee625d56c99ca08dee1e"
       url "https://downloads.apervia.ai/cli/#{version}/apervia_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "27ed8e7dd4c35b2fe63a1e010a8a4c4cfc7715daff4169fd917eb4d96ab100da"
+      sha256 "32e4e4ee255c5c7e2347670469ef07c979b5b292435f85848c76323b5de631bf"
       url "https://downloads.apervia.ai/cli/#{version}/apervia_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "55435d77c326ac0b3488e6a8da573f11184fcca9a30403fcc4086f81e3d1054e"
+      sha256 "a5bbcd1e6eff6b0cfd3dca5d1a4c3ce1f9be53acc54bc170c94d9e85bf1c60d4"
       url "https://downloads.apervia.ai/cli/#{version}/apervia_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1d302468038530af262753eec8878315ba4e7ffb44ebf6d8af500160a9210800"
+      sha256 "f932c7260cc3bb9f6cf6feb470cbd7c1a5479782de77a1ce67608a424957277c"
       url "https://downloads.apervia.ai/cli/#{version}/apervia_linux_amd64.tar.gz"
     end
   end
